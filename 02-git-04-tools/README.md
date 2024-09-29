@@ -27,10 +27,21 @@ git show aefea
 ![](https://github.com/s-bessonniy/sysadm-homeworks/blob/devsys10/02-git-04-tools/img/VirtualBox_Ubuntu-50Gb_29_09_2024_13_43_22.png)
 
 
-3. Ответьте на вопросы.
+2. Ответьте на вопросы.
 
 * Какому тегу соответствует коммит `85024d3`?
+
+```
+git log -1 85024d3
+```
+![](https://github.com/s-bessonniy/sysadm-homeworks/blob/devsys10/02-git-04-tools/img/VirtualBox_Ubuntu-50Gb_29_09_2024_14_07_52.png)
+
 * Сколько родителей у коммита `b8d720`? Напишите их хеши.
+
+```
+
+```
+
 * Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами  v0.12.23 и v0.12.24.
 * Найдите коммит, в котором была создана функция `func providerSource`, её определение в коде выглядит так: `func providerSource(...)` (вместо троеточия перечислены аргументы).
 * Найдите все коммиты, в которых была изменена функция `globalPluginDirs`.
