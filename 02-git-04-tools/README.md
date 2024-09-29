@@ -23,9 +23,8 @@
 
 ```
 git show aefea
-
 ```
-![](02-git-04-tools/img/VirtualBox_Ubuntu-50Gb_29_09_2024_13_43_22.png)
+![](https://github.com/s-bessonniy/sysadm-homeworks/blob/devsys10/02-git-04-tools/img/VirtualBox_Ubuntu-50Gb_29_09_2024_13_43_22.png)
 
 
 3. Ответьте на вопросы.
