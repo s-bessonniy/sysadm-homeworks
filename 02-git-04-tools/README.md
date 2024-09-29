@@ -52,30 +52,30 @@ git show -s --pretty=%P b8d720
 * Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами  v0.12.23 и v0.12.24.
 
 ```
-
+git log v0.12.23..v0.12.24 --pretty=oneline
 ```
-![]()
+![](https://github.com/s-bessonniy/sysadm-homeworks/blob/devsys10/02-git-04-tools/img/VirtualBox_Ubuntu-50Gb_29_09_2024_14_18_58.png)
 
 * Найдите коммит, в котором была создана функция `func providerSource`, её определение в коде выглядит так: `func providerSource(...)` (вместо троеточия перечислены аргументы).
 
 ```
-
+git log -S 'func providerSource'
 ```
-![]()
+![](https://github.com/s-bessonniy/sysadm-homeworks/blob/devsys10/02-git-04-tools/img/VirtualBox_Ubuntu-50Gb_29_09_2024_14_21_32.png)
 
 * Найдите все коммиты, в которых была изменена функция `globalPluginDirs`.
 
 ```
-
+git log -GglobalPluginDirs --stat
 ```
-![]()
+![](https://github.com/s-bessonniy/sysadm-homeworks/blob/devsys10/02-git-04-tools/img/VirtualBox_Ubuntu-50Gb_29_09_2024_14_25_23.png)
 
 * Кто автор функции `synchronizedWriters`?
 
 ```
-
+git log -S synchronizedWriters --pretty=format:"%h %an"
 ```
-![]()
+![](https://github.com/s-bessonniy/sysadm-homeworks/blob/devsys10/02-git-04-tools/img/VirtualBox_Ubuntu-50Gb_29_09_2024_14_27_37.png)
 
 *В качестве решения ответьте на вопросы и опишите, как были получены эти ответы.*
 
